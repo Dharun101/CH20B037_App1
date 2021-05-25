@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Application</title>
+<link rel="stylesheet" href="app1.css">
+</head>
+<br>
+<body>
+  <header><!--The header here is used for the navbar.-->
+    <div class="left">
+      <img class="logo" src="download.png">
+      <h2 class="brand">Brand Name</h2>
+    </div>
+    <nav>
+      <ul class="nav_links">
+        <li title="Link 1">Link 1</li>
+        <li title="Link 2">Link 2</li>
+        <li title="Link 3">Link 3</li>
+        <li title="Link 4">Link 4</li>
+        <li title="Link 5">Link 5</li>
+    </nav>
+  </header>
+  <div class="cont"><!--User registeration form-->
+   <section id="container">
+     <h4>User Registeration Form</h3>
+     <form action="submission.html" method="POST">
+        <section class="name">
+           <label for="name" class="questions">Name :</label><br>
+    		 	 <input type="text" name="name" id="name" placeholder="Enter your Name">
+        </section>
+        <br>
+        <section class="password">
+           <label for="password" class="questions">Password :</label><br>
+           <input type="password" name="password" id="password" placeholder="Enter your Password"pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters">
+        </section>
+        <br>
+        <section class="email">
+           <label for="text" class="questions">Email ID :</label><br>
+           <input type="email" name="email" id="email" placeholder="Enter your Email ID">
+        </section>
+        <br>
+        <section class="number">
+           <label for="phone" class="questions">Mobile Number :</label><br>
+           <input type="number" name="number" id="number" placeholder="Enter your Mobile Number">
+        </section>
+        <br>
+        <br>
+        <section class="submit">
+           <input type="submit" value="Submit">
+        </submit>
+    </form>
+   </section>
+  </div>
+  <br><br>
+  <div class="flexbox"><!--Flex box-->
+    <div class="box1">
+      <h1>Box 1</h1>
+    </div>
+    <div class="box2">
+      <h1>Box 2</h1>
+    </div>
+    <div class="box3">
+      <h1>Box 3</h1>
+    </div>
+    <div class="box4">
+      <h1>Box 4</h1>
+    </div>
+    <div class="box5">
+      <h1>Box 5</h1>
+    </div>
+  </div>
+  <br><br>
+  <div class="properties"><!--Positioning properties-->
+    <h3>Absolute</h3>
+     <p>Elements with position: absolute are positioned relative to their parent elements. In this case, the element is removed from the normal document flow. The other elements will behave as if that element is not in the document. No space is created for the element in the page layout. The values of left, top, bottom and right determine the final position of the element.<br>
+One thing to note is that an element with position: absolute is positioned relative to its closest positioned ancestor. That means that the parent element has to have a position value other than position: static.If the closest parent element is not positioned, it is positioned relative to the next parent element that is positioned. If there's no positioned ancestor element, it is positioned relative to the html element.</p>
+    <h3>Fixed</h3>
+     <p>Fixed position elements are similar to absolutely positioned elements. They are also removed from the normal flow of the document. But unlike absolutely positioned element, they are always positioned relative to the html element.One thing to note is that fixed elements are not affected by scrolling. They always stay in the same position on the screen.<br>
+          Example : Relative positioning is used with the solution for the 4th question that is the div with class name 'properties'.</p>
+    <h3>Sticky</h3>
+     <p>Position: sticky is a mix of position: relative and position: fixed. It acts like a relatively positioned element until a certain scroll point and then it acts like a fixed element.<br>
+     Example : Sticky positioning is used with navbar.(Some space is intentionally left above the navbar to show how it works.)</p>
+  </div>
+</body>
+</html>

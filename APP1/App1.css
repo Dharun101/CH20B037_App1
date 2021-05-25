@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body{
+  background-image: url(app.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}/*Fixed background*/
+
+header{
+   display: flex;
+   justify-content: space-between;
+   position: sticky;
+   z-index: 1;
+   top: 10px;
+   height: 50px;
+   margin-top: 20px;
+   background-color: #24252A;
+   border-radius: 5px;
+   font-family: 'Montserrat',sans-serif;
+   margin-top: 0;
+}/*For the navbar*/
+
+.nav_links li{
+   display: inline-block;
+   margin-right: 30px;
+   color: #edf0f1;
+   cursor: pointer;
+   background-color: #fa558c;
+   height: 20px;
+   width: 60px;
+   border-radius: 10px;
+   text-align: center;
+}/*For the links*/
+
+.logo{
+   margin-left: 5px;
+   height: 40px;
+}
+
+.nav_links li:hover{
+  color: #0088a9;
+}
+
+#container{
+  background-color: #24252A;
+  color:#6eeeff;
+  font-size: 30px;
+  width: 330px;
+  opacity: 0.9;
+  font-family: 'Montserrat',sans-serif;
+  border-radius: 20px;
+  margin-top: 50px;
+  padding: 50px;
+  line-height: 25px;
+}/*For the user registeration form*/
+
+input{
+  width: 100%;
+}
+
+.cont{
+  display: flex;
+  justify-content: center;
+}
+
+h1{
+  color: #e09dfc;
+  font-size: 50px;
+}
+
+.flexbox div{
+  border: 1px #e09dfc solid;
+  padding: 0;
+  width: 10%;
+}
+
+.flexbox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}/*Creating Flexbox*/
+
+.box1,.box5{
+  background-color: Green;
+  opacity: 0.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Montserrat',sans-serif;
+}/*Individual Flexbox definition*/
+
+.box2,.box4{
+  background-color: Blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Montserrat',sans-serif;
+}/*Individual Flexbox definition*/
+
+.box3{
+  background-color: Red;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Montserrat',sans-serif;
+}/*Individual Flexbox definition*/
+
+.left{
+   display: flex;
+   align-items: center;
+   margin-left: 2px;
+}/*For elements in the left side of the navbar*/
+
+.brand{
+   color:#7ae4ff;
+   font-size: 45px;
+   margin-left: 10px;
+}
+
+.properties{
+   background-color: #24252A;
+   opacity: 0.9;
+   border-radius: 20px;
+   color: #ff0800;
+   padding: 20px;
+   position: relative;
+}/*For the solution of the 4th question*/
+
+h3{
+   font-size:40px;
+   text-align: center;
+   font-family: 'Montserrat',sans-serif;
+}
+
+h4{
+  margin: 0;
+  text-align: center;
+  font-size: 25px;
+  padding-bottom: 25px;
+  font-family: 'Montserrat',sans-serif;
+}
+
+label{
+  font-size: 20px;
+}
+
+.submit{
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p{
+  font-family: 'Montserrat',sans-serif;
+  font-size: 20px;
+}/*Changing font of all the paragraphs*/
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  height: 40px;
+  font-size: 20px;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}/*Submit box properties*/
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+input{
+  height: 30px;
+  background-color: #DCAE96;
+  font-family: 'Montserrat',sans-serif;
+  border-color: #f77e90;
+  font-weight: bold;
+}/*Input boxes properties*/
